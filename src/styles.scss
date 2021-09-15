@@ -1,0 +1,31 @@
+@import "_normalize.scss";
+
+.App {
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background: #F1F2F4;
+  overflow: hidden;
+}
+
+.header{
+  width: 100vw;
+  height: 56px;
+  background: #353D4B;
+}
+
+.content{
+  display: flex;
+  height: 100%;
+
+  &__menu{
+    width: 280px;
+    background: #FFFFFF;
+  }
+
+  &__area-users{
+    width: 100%;
+    margin: 32px;
+  }
+}
+

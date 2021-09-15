@@ -1,0 +1,117 @@
+  .content__sub-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .content__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 156px;
+    height: 36px;
+    border: 0px;
+    color: white;
+    border-radius: 6px;
+    background: #4587ED;
+    transition: background 0.2s ease-in-out;
+
+    &:hover{
+      background: rgb(34, 123, 255);
+    }
+  }
+
+  .content__button-plus{
+    margin-right: 11px;
+  }
+
+.content__table{
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  
+	table {
+    border-spacing: 0;
+    border-collapse: separate;
+    border-spacing: 0 4px;
+
+		thead{
+      height: 40px;
+      border-radius: 16px;
+      background: #fff;
+
+      th,td {
+        text-align: left;
+        margin: 0;
+      }
+
+      th:first-child{
+        padding: 0.5rem 0.5rem 0.5rem 32px;
+        border-radius: 6px 0 0 6px;
+      }
+
+      th:last-child{
+        border-radius: 0 6px 6px 0;
+      }
+    }
+
+    tbody{
+      tr{
+      height: 40px;
+      background: #fff;
+
+        th,td {
+          text-align: left;
+          margin: 0;
+        }
+
+        td:first-child{
+          border-radius: 6px 0 0 6px;
+          padding: 0.5rem 0.5rem 0.5rem 32px;
+        }
+  
+        td:last-child{
+          border-radius: 0 6px 6px 0;
+        }
+      }
+    }
+  }
+
+  button{
+    margin-top: 4px;
+    border: 0;
+    background: #F6F7F9;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 5px 0 0 0;
+  }
+
+  &-button-right{
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  &-button_edit{
+    width: 32px;
+    height: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+    transition: background 0.2s ease-in-out;
+
+    &:hover{
+      background: rgb(234, 236, 240);
+    }
+  }
+
+  &-button_delete{
+    width: 32px;
+    height: 32px;
+    margin-right: 32px;
+    transition: background 0.2s ease-in-out;
+
+    &:hover{
+      background: rgb(234, 236, 240);
+    }
+  }
+}
